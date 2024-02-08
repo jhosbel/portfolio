@@ -22,6 +22,15 @@ function Navbar() {
     });
   };
 
+  const handleDescargaPDF = () => {
+    /* const pdfUrl = process.env.PUBLIC_URL + '/archivos/archivo.pdf'; */
+    const pdfUrl = 'CV_Jhosbel_Software_Developer.pdf';
+    const linkDescarga = document.createElement('a');
+    linkDescarga.href = pdfUrl;
+    linkDescarga.download = 'CV_Jhosbel_Software_Developer.pdf';
+    linkDescarga.click();
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50) {
@@ -42,7 +51,7 @@ function Navbar() {
       <div
         className={`fixed top-0 w-full py-4 transition-all duration-1000 justify-center items-center flex ${
           scrolling
-            ? "h-20 bg-slate-50 justify-around backdrop-blur-sm bg-white/30"
+            ? "h-20 bg-slate-50 justify-around backdrop-blur-md bg-white/30"
             : "flex-col h-full bg-slate-200"
         }`}
       >
@@ -53,7 +62,8 @@ function Navbar() {
                 {text}
                 <Cursor cursorBlinking={true} />
               </span>
-              <p className="mt-4">Apasionado desarrollador software</p>
+              <p className="mt-4">Desarrollador software</p>
+              <span className="cursor-pointer" onClick={handleDescargaPDF}>Descargas CV</span>
             </div>
           </div>
           <img
@@ -70,13 +80,13 @@ function Navbar() {
         <div className={`${scrolling ? "" : "mt-20"}`}>
           <ul className="flex justify-around">
             <li className="mr-4">
-              <a href="#experience">Experiencia</a>
+              <a className="hover:text-red-700" href="#experience">Experiencia</a>
             </li>
             <li className="mr-4">
-              <a href="#projects">Proyectos</a>
+              <a className="hover:text-red-700" href="#projects">Proyectos</a>
             </li>
             <li>
-              <a href="#about">Acerca de mi</a>
+              <a className="hover:text-red-700" href="#about">Acerca de mi</a>
             </li>
           </ul>
         </div>

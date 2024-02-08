@@ -33,7 +33,7 @@ function Experience() {
       <ul className="list-disc flex flex-col gap-2 ml-5">
         <li>
           OTCMarket es una aplicación web diseñada para que los usuarios puedan
-          resumir grandes bloques de texto y publicarlas en distintas redes
+          resumir grandes bloques de texto usando la API de OpenAI y publicarlas en distintas redes
           sociales sin necesidad de entrar en las mismas para publicarlas,
           usando Next.js para hacer el Frontend y NestJS para hacer el Backend
           usando Tailwind para estilizarla.

@@ -10,14 +10,14 @@ export default function Home() {
     <main className="min-h-screen max-w-5xl mx-auto">
       <div>
         <Navbar />
-        <div className="mt-96">
-          <div id="experience" className="mb-96 mt-96 flex justify-center pt-40">
+        <div className="mt-20">
+          <div id="experience" className="mt-20 flex justify-center pt-40">
             <Experience />
           </div>
-          <div id="projects" className="mb-96 mt-96 flex justify-center pt-40">
+          <div id="projects" className="flex justify-center pt-40">
             <Projects />
           </div>
-          <div id="about" className="mb-96 mt-96 flex justify-center pt-40">
+          <div id="about" className="mb-40 flex justify-center pt-40">
             <About />
           </div>
         </div>
