@@ -1,0 +1,9 @@
+.grid-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    transition: grid-template-columns 0.5s ease-in-out;
+  }
+  
+  .grid-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    transition: grid-template-columns 0.5s ease-in-out;
+  }
