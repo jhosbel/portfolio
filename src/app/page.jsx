@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Projects from "@/components/Projects";
 import Navbar from "../components/Navbar";
@@ -7,9 +7,9 @@ import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
-    <main className="min-h-screen max-w-5xl mx-auto">
-      <div>
-        <Navbar />
+    <main>
+      <Navbar />
+      <div className="min-h-screen max-w-5xl mx-auto">
         <div className="mt-20">
           <div id="experience" className="mt-20 flex justify-center pt-40">
             <Experience />

@@ -62,8 +62,8 @@ function Navbar() {
                 {text}
                 <Cursor cursorBlinking={true} />
               </span>
-              <p className="mt-4">Desarrollador software</p>
-              <span className="cursor-pointer" onClick={handleDescargaPDF}>Descargas CV</span>
+              <p className="mt-4 mb-4">Desarrollador software</p>
+              <span className="cursor-pointer py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-[#1D4ED8] sm:w-fit hover:bg-[#1E40AF] focus:ring-4 focus:outline-none focus:ring-[#93C5FD]" onClick={handleDescargaPDF}>Descargas CV</span>
             </div>
           </div>
           <img
