@@ -1,7 +1,7 @@
 "use client";
 
 import Projects from "@/components/Projects";
-import Navbar from "../components/Navbar";
+import Navbar from "@/components/Navbar";
 import About from "@/components/About";
 import Experience from "@/components/Experience";
 

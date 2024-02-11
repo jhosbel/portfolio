@@ -2,6 +2,7 @@
 "use client";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import React, { useEffect, useState } from "react";
+import LocalSwitcher from "./LocalSwitcher";
 
 function Navbar() {
   const [scrolling, setScrolling] = useState(false);
@@ -88,6 +89,7 @@ function Navbar() {
             <li>
               <a className="hover:text-red-700" href="#about">Acerca de mi</a>
             </li>
+            <LocalSwitcher />
           </ul>
         </div>
       </div>
