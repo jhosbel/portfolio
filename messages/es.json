@@ -1,4 +1,13 @@
 {
+    "Navbar": {
+        "title": "Desarrollador software",
+        "experience": "Experiencia",
+        "project": "Proyectos",
+        "about_me": "Acerca de mi",
+        "download_cv": "Descargar CV",
+        "spanish": "Español",
+        "english": "Ingles"
+    },
     "Index": {
         "title": "Bienvenido a mi Portafolio"
     }

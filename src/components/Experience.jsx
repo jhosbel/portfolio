@@ -1,12 +1,10 @@
-import { useTranslations } from "next-intl";
 import React from "react";
 
 function Experience() {
-  const t = useTranslations('Index')
+
   return (
     <div className="max-w-2xl">
       <h1 className="text-xl">Experiencia</h1>
-      <h1>{t('title')}</h1>
       <br />
       <span>Nov 2022 - Ene 2024</span>
       <p>Desarrollador Front-End • CHIMBA Blockchain</p>

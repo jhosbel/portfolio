@@ -3,8 +3,11 @@
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import React, { useEffect, useState } from "react";
 import LocalSwitcher from "./LocalSwitcher";
+import { useTranslations } from "next-intl";
 
 function Navbar() {
+  const t = useTranslations("Navbar");
+
   const [scrolling, setScrolling] = useState(false);
 
   const [text] = useTypewriter({
@@ -25,10 +28,10 @@ function Navbar() {
 
   const handleDescargaPDF = () => {
     /* const pdfUrl = process.env.PUBLIC_URL + '/archivos/archivo.pdf'; */
-    const pdfUrl = 'CV_Jhosbel_Software_Developer.pdf';
-    const linkDescarga = document.createElement('a');
+    const pdfUrl = "CV_Jhosbel_Software_Developer.pdf";
+    const linkDescarga = document.createElement("a");
     linkDescarga.href = pdfUrl;
-    linkDescarga.download = 'CV_Jhosbel_Software_Developer.pdf';
+    linkDescarga.download = "CV_Jhosbel_Software_Developer.pdf";
     linkDescarga.click();
   };
 
@@ -63,8 +66,13 @@ function Navbar() {
                 {text}
                 <Cursor cursorBlinking={true} />
               </span>
-              <p className="mt-4 mb-4">Desarrollador software</p>
-              <span className="cursor-pointer py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-[#1D4ED8] sm:w-fit hover:bg-[#1E40AF] focus:ring-4 focus:outline-none focus:ring-[#93C5FD]" onClick={handleDescargaPDF}>Descargas CV</span>
+              <p className="mt-4 mb-4">{t("title")}</p>
+              <span
+                className="cursor-pointer py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-[#1D4ED8] sm:w-fit hover:bg-[#1E40AF] focus:ring-4 focus:outline-none focus:ring-[#93C5FD]"
+                onClick={handleDescargaPDF}
+              >
+                {t("download_cv")}
+              </span>
             </div>
           </div>
           <img
@@ -81,13 +89,19 @@ function Navbar() {
         <div className={`${scrolling ? "" : "mt-20"}`}>
           <ul className="flex justify-around">
             <li className="mr-4">
-              <a className="hover:text-red-700" href="#experience">Experiencia</a>
+              <a className="hover:text-red-700" href="#experience">
+                {t("experience")}
+              </a>
             </li>
             <li className="mr-4">
-              <a className="hover:text-red-700" href="#projects">Proyectos</a>
+              <a className="hover:text-red-700" href="#projects">
+                {t("project")}
+              </a>
             </li>
             <li>
-              <a className="hover:text-red-700" href="#about">Acerca de mi</a>
+              <a className="hover:text-red-700" href="#about">
+                {t("about_me")}
+              </a>
             </li>
             <LocalSwitcher />
           </ul>
