@@ -59,21 +59,21 @@ function Navbar() {
             : "flex-col h-full bg-slate-200"
         }`}
       >
-        <div className="flex items-center gap-4">
-          <div className={`${scrolling ? "hidden" : "block"}`}>
+        <div className={`${scrolling ? 'flex-row-reverse' : 'flex-row'} flex items-center gap-4`}>
+          <div className="flex flex-col items-center">
             <div className="text-center">
-              <span className="text-5xl">
+              <span className={`${scrolling ? 'text-base' : 'text-5xl'}`}>
                 {text}
                 <Cursor cursorBlinking={true} />
               </span>
-              <p className="mt-4 mb-4">{t("title")}</p>
+              <p className={`mt-4 mb-4 ${scrolling ? "hidden" : "block"}`}>{t("title")}</p>
+            </div>
               <span
-                className="cursor-pointer py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-[#1D4ED8] sm:w-fit hover:bg-[#1E40AF] focus:ring-4 focus:outline-none focus:ring-[#93C5FD]"
+                className={`cursor-pointer py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-[#1D4ED8] sm:w-fit hover:bg-[#1E40AF] focus:ring-4 focus:outline-none focus:ring-[#93C5FD] ${scrolling ? "hidden" : "block"}`}
                 onClick={handleDescargaPDF}
               >
                 {t("download_cv")}
               </span>
-            </div>
           </div>
           <img
             onClick={scrollToTop}
