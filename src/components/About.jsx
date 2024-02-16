@@ -29,12 +29,12 @@ function About() {
   return (
     <div className="max-w-2xl font-['system-ui'] text-slate-700">
       <h1 className="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">
-        Acerca de mi
+        {t("about_me_title")}
       </h1>
       <p>{t("about_me_description")}</p>
       <br />
       <h1 className="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">
-        Redes Sociales
+        {t("social_networks")}
       </h1>
       <div className="grid grid-cols-5 gap-2">
         <div className="rounded-md border-4 transition bg-indigo-100 hover:bg-opacity-80 text-[#007EBB] hover:border-indigo-500 hover:scale-105">
@@ -106,7 +106,7 @@ function About() {
       <br />
       <div>
         <h1 className="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">
-          Email
+          {t("email")}
         </h1>
         <div className="flex gap-2">
           <input
@@ -121,7 +121,7 @@ function About() {
                 href={`mailto:${destinatario}`}
                 className="flex transition bg-indigo-100 hover:bg-opacity-80 dark:bg-indigo-500 hover:dark:bg-opacity-90 text-indigo-500 dark:text-indigo-100 py-2.5 px-4 rounded-lg"
               >
-                Enviar
+                {t("send")}
               </a>
             </div>
             <div>
@@ -130,7 +130,7 @@ function About() {
                 onClick={handleCopyText}
                 className="flex transition bg-indigo-100 hover:bg-opacity-80 dark:bg-indigo-500 hover:dark:bg-opacity-90 text-indigo-500 dark:text-indigo-100 py-2.5 px-4 rounded-lg"
               >
-                Copiar
+                {t("copy")}
               </a>
             </div>
           </div>

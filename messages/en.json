@@ -1,17 +1,35 @@
 {
-    "Navbar": {
-        "title": "Software Developer",
-        "experience": "Experience",
-        "project": "Projects",
-        "about_me": "About me",
-        "download_cv": "Download CV",
-        "spanish": "Spanish",
-        "english": "English"
-    },
-    "Index": {
-        "title": "Bienvenido a mi Portafolio"
-    },
-    "About": {
-        "about_me_description": "I am a calm person, I like to do exercises to stay in shape and be as healthy as possible, I like the Geek and Gamer world, I like to concentrate on the work I am doing at the moment, I look for solutions to problems assertively I always seek to learn new technologies that can help solve problems. I like to help my coworkers so that they can be more effective in their work tasks. I like to receive feedback about my work so that it can help me continue growing. as a developer."
-    }
+  "Navbar": {
+    "title": "Software Developer",
+    "experience": "Experience",
+    "project": "Projects",
+    "about_me": "About me",
+    "download_cv": "Download CV",
+    "spanish": "Spanish",
+    "english": "English"
+  },
+  "Index": {
+    "title": "Bienvenido a mi Portafolio"
+  },
+  "Experience": {
+    "experience_title": "Experience",
+    "experience_work_title_1": "Front-End Developer • CHIMBA Blockchain",
+    "time_work_1": "Nov 2022 - Jan 2024",
+    "experience_1_li1": "The CHIMBA Blockchain project is designed using the Cosmos SDK.",
+    "experience_1_li2": "Website designed in Angular, showing the user's information about the project, as well as the links to register and download the app and web extension3, stylized using CSS guided by the design",
+    "experience_1_li3": "Chimba Explorer designed in React, styled using Chakra UI, the explorer allows users to see their transactions and the number of blocks in the chain.",
+    "experience_1_li4": "Amazonia designed in React, using the Cosmos SDK to connect via web3, allows you to perform transactions such as sending tokens, creating and voting on proposals, performing tasks, etc. It was styled using Bootstrap.",
+    "experience_work_title_2": "Full-Stack Developer • OTCMarket",
+    "time_work_2": "Nov 2023 - Jan 2024",
+    "experience_2_li1": "OTCMarket is a web application designed so that users can summarize large blocks of text using the OpenAI API and publish them on different social networks without having to enter them to publish them, using Next.js to make the Frontend and NestJS to make the Backend using Tailwind to style it."
+  },
+  "Projects": {},
+  "About": {
+    "about_me_title": "About me",
+    "about_me_description": "I am a calm person, I like to do exercises to stay in shape and be as healthy as possible, I like the Geek and Gamer world, I like to concentrate on the work I am doing at the moment, I look for solutions to problems assertively I always seek to learn new technologies that can help solve problems. I like to help my coworkers so that they can be more effective in their work tasks. I like to receive feedback about my work so that it can help me continue growing. as a developer.",
+    "social_networks": "Social Networks",
+    "email": "E-mail",
+    "send": "Send",
+    "copy": "Copy"
+  }
 }

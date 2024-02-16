@@ -51,7 +51,7 @@ function Navbar() {
     };
   }, []);
   return (
-    <div>
+    <div className="font-['system-ui'] text-slate-700">
       <div
         className={`fixed top-0 w-full py-4 transition-all duration-1000 justify-center items-center flex ${
           scrolling
@@ -59,27 +59,35 @@ function Navbar() {
             : "flex-col h-full bg-slate-200"
         }`}
       >
-        <div className={`${scrolling ? 'flex-row-reverse' : 'flex-row'} flex items-center gap-4`}>
+        <div
+          className={`${
+            scrolling ? "flex-row-reverse" : "flex-row"
+          } flex items-center gap-4`}
+        >
           <div className="flex flex-col items-center">
             <div className="text-center">
-              <span className={`${scrolling ? 'text-base mr-24' : 'text-5xl'}`}>
+              <span className={`${scrolling ? "text-base mr-24 text-slate-600" : "text-5xl text-slate-600"}`}>
                 {text}
                 <Cursor cursorBlinking={true} />
               </span>
-              <p className={`mt-4 mb-4 ${scrolling ? "hidden" : "block"}`}>{t("title")}</p>
+              <p className={`mt-4 text-slate-600 mb-4 ${scrolling ? "hidden" : "block"}`}>
+                {t("title")}
+              </p>
             </div>
-              <span
-                className={`cursor-pointer py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-[#1D4ED8] sm:w-fit hover:bg-[#1E40AF] focus:ring-4 focus:outline-none focus:ring-[#93C5FD] ${scrolling ? "hidden" : "block"}`}
-                onClick={handleDescargaPDF}
-              >
-                {t("download_cv")}
-              </span>
+            <span
+              className={`cursor-pointer py-2.5 px-4 border-2 rounded-lg font-medium flex transition text-indigo-500 bg-indigo-100 hover:border-indigo-500 ${
+                scrolling ? "hidden" : "block"
+              }`}
+              onClick={handleDescargaPDF}
+            >
+              {t("download_cv")}
+            </span>
           </div>
           <img
             onClick={scrollToTop}
-            src="avatar-logo.jpg"
-            alt="avatar"
-            className={`transition-all duration-1000 ${
+            src="perfil.jpg"
+            alt="Perfil Photo"
+            className={`transition-all duration-1000 object-cover ${
               scrolling
                 ? "w-16 rounded-full justify-around cursor-pointer"
                 : "w-40"
@@ -87,19 +95,28 @@ function Navbar() {
           />
         </div>
         <div className={`${scrolling ? "" : "mt-20"}`}>
-          <ul className="flex justify-around">
+          <ul className="flex justify-around font-normal">
             <li className="mr-4">
-              <a className="hover:text-red-700" href="#experience">
+              <a
+                className="text-indigo-500 hover:bg-slate-100 hover:text-indigo-400 rounded-md px-3 py-2 text-sm font-medium transition mr-4"
+                href="#experience"
+              >
                 {t("experience")}
               </a>
             </li>
             <li className="mr-4">
-              <a className="hover:text-red-700" href="#projects">
+              <a
+                className="text-indigo-500 hover:bg-slate-100 hover:text-indigo-400 rounded-md px-3 py-2 text-sm font-medium transition mr-4"
+                href="#projects"
+              >
                 {t("project")}
               </a>
             </li>
             <li>
-              <a className="hover:text-red-700 mr-4" href="#about">
+              <a
+                className="text-indigo-500 hover:bg-slate-100 hover:text-indigo-400 rounded-md px-3 py-2 text-sm font-medium transition mr-4"
+                href="#about"
+              >
                 {t("about_me")}
               </a>
             </li>

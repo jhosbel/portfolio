@@ -11,7 +11,25 @@
   "Index": {
     "title": "Bienvenido a mi Portafolio"
   },
+  "Experience": {
+    "experience_title": "Experiencia",
+    "experience_work_title_1": "Desarrollador Front-End • CHIMBA Blockchain",
+    "time_work_1": "Nov 2022 - Ene 2024",
+    "experience_1_li1": "El proyecto de CHIMBA Blockchain está diseñada usando el Cosmos SDK.",
+    "experience_1_li2": "Website diseñado en Angular, mostrando la información del usuario sobre el proyecto, como también los enlaces para poder registrarse y descargar la app y extensión de la web3, estilizada usando CSS guiado por el diseño.",
+    "experience_1_li3": "Chimba Explorer diseñado en React, estilizada usando Chakra UI, el explorador sirve para que los usuarios puedan ver sus transacciones y el número de bloques de la cadena.",
+    "experience_1_li4": "Amazonia diseñado en React, usando el SDK de Cosmos para conectándose a través de la web3, te permite realizar transacciones como enviar tokens, crear y votar propuestas, realizar tareas, etc. fue estilizada usando Bootstrap.",
+    "experience_work_title_2": "Desarrollador Full-Stack • OTCMarket",
+    "time_work_2": "Nov 2023 - Ene 2024",
+    "experience_2_li1": "OTCMarket es una aplicación web diseñada para que los usuarios puedan resumir grandes bloques de texto usando la API de OpenAI y publicarlas en distintas redes sociales sin necesidad de entrar en las mismas para publicarlas, usando Next.js para hacer el Frontend y NestJS para hacer el Backend usando Tailwind para estilizarla."
+  },
+  "Projects": {},
   "About": {
-    "about_me_description": "Soy una persona tranquila, me gusta hacer ejercicios para mantenerme en forma y estar lo más saludable posible, me gusta el mundo Geek y el Gamer, me gusta concentrarme en el trabajo que estoy haciendo en el momento, busco soluciones sobre los problemas de manera asertiva, siempre busco aprender nuevas tecnologías que sirvan para resolver los problemas, me gusta ayudar a mis compañeros de trabajo de manera que se pueda ser más eficaz en las tareas del trabajo, me gusta recibir feedback sobre mi trabajo de manera que me pueda ayudar seguir creciendo como desarrollador."
+    "about_me_title": "Acerca de mi",
+    "about_me_description": "Soy una persona tranquila, me gusta hacer ejercicios para mantenerme en forma y estar lo más saludable posible, me gusta el mundo Geek y el Gamer, me gusta concentrarme en el trabajo que estoy haciendo en el momento, busco soluciones sobre los problemas de manera asertiva, siempre busco aprender nuevas tecnologías que sirvan para resolver los problemas, me gusta ayudar a mis compañeros de trabajo de manera que se pueda ser más eficaz en las tareas del trabajo, me gusta recibir feedback sobre mi trabajo de manera que me pueda ayudar seguir creciendo como desarrollador.",
+    "social_networks": "Redes Sociales",
+    "email": "Email",
+    "send": "Enviar",
+    "copy": "Copiar"
   }
 }
