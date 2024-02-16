@@ -22,6 +22,7 @@
     "react-dom": "^18",
     "react-i18next": "^14.0.5",
     "react-simple-typewriter": "^5.0.1",
+    "sweetalert2": "^11.10.5",
     "use-react-countries": "^2.0.0"
   },
   "devDependencies": {

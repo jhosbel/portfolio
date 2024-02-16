@@ -1,14 +1,17 @@
 {
-    "Navbar": {
-        "title": "Desarrollador software",
-        "experience": "Experiencia",
-        "project": "Proyectos",
-        "about_me": "Acerca de mi",
-        "download_cv": "Descargar CV",
-        "spanish": "Español",
-        "english": "Ingles"
-    },
-    "Index": {
-        "title": "Bienvenido a mi Portafolio"
-    }
+  "Navbar": {
+    "title": "Desarrollador software",
+    "experience": "Experiencia",
+    "project": "Proyectos",
+    "about_me": "Acerca de mi",
+    "download_cv": "Descargar CV",
+    "spanish": "Español",
+    "english": "Ingles"
+  },
+  "Index": {
+    "title": "Bienvenido a mi Portafolio"
+  },
+  "About": {
+    "about_me_description": "Soy una persona tranquila, me gusta hacer ejercicios para mantenerme en forma y estar lo más saludable posible, me gusta el mundo Geek y el Gamer, me gusta concentrarme en el trabajo que estoy haciendo en el momento, busco soluciones sobre los problemas de manera asertiva, siempre busco aprender nuevas tecnologías que sirvan para resolver los problemas, me gusta ayudar a mis compañeros de trabajo de manera que se pueda ser más eficaz en las tareas del trabajo, me gusta recibir feedback sobre mi trabajo de manera que me pueda ayudar seguir creciendo como desarrollador."
+  }
 }

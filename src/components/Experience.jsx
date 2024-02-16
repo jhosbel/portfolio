@@ -4,8 +4,7 @@ function Experience() {
 
   return (
     <div className="max-w-2xl">
-      <h1 className="text-xl">Experiencia</h1>
-      <br />
+      <h1 className="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">Experiencia</h1>
       <span>Nov 2022 - Ene 2024</span>
       <p>Desarrollador Front-End • CHIMBA Blockchain</p>
       <ul className="list-disc flex flex-col gap-2 ml-5">

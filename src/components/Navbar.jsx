@@ -55,14 +55,14 @@ function Navbar() {
       <div
         className={`fixed top-0 w-full py-4 transition-all duration-1000 justify-center items-center flex ${
           scrolling
-            ? "h-20 bg-slate-50 justify-around backdrop-blur-md bg-white/30"
+            ? "h-20 bg-slate-50 justify-center backdrop-blur-xl bg-white/30"
             : "flex-col h-full bg-slate-200"
         }`}
       >
         <div className={`${scrolling ? 'flex-row-reverse' : 'flex-row'} flex items-center gap-4`}>
           <div className="flex flex-col items-center">
             <div className="text-center">
-              <span className={`${scrolling ? 'text-base' : 'text-5xl'}`}>
+              <span className={`${scrolling ? 'text-base mr-24' : 'text-5xl'}`}>
                 {text}
                 <Cursor cursorBlinking={true} />
               </span>
@@ -99,7 +99,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a className="hover:text-red-700" href="#about">
+              <a className="hover:text-red-700 mr-3" href="#about">
                 {t("about_me")}
               </a>
             </li>
