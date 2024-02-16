@@ -99,7 +99,7 @@ function Navbar() {
               </a>
             </li>
             <li>
-              <a className="hover:text-red-700 mr-3" href="#about">
+              <a className="hover:text-red-700 mr-4" href="#about">
                 {t("about_me")}
               </a>
             </li>

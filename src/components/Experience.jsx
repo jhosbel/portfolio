@@ -2,12 +2,14 @@ import React from "react";
 
 function Experience() {
 
+  //button style - className="cursor-pointer py-2 px-3 text-sm font-medium text-center text-white rounded-lg bg-[#1D4ED8] sm:w-fit hover:bg-[#1E40AF] focus:ring-4 focus:outline-none focus:ring-[#93C5FD]"
+
   return (
-    <div className="max-w-2xl">
+    <div className="max-w-2xl font-['system-ui'] text-slate-700">
       <h1 className="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">Experiencia</h1>
-      <span>Nov 2022 - Ene 2024</span>
-      <p>Desarrollador Front-End • CHIMBA Blockchain</p>
-      <ul className="list-disc flex flex-col gap-2 ml-5">
+      <p className="font-bold">Desarrollador Front-End • CHIMBA Blockchain</p>
+      <span className="text-slate-400">Nov 2022 - Ene 2024</span>
+      <ul className="list-disc flex flex-col gap-2 ml-5 mt-4">
         <li>
           El proyecto de CHIMBA Blockchain esta diseñada usando el Cosmos SDK.
         </li>
@@ -18,7 +20,7 @@ function Experience() {
           por el diseño.
         </li>
         <a
-          className="cursor-pointer py-2 px-3 text-sm font-medium text-center text-white rounded-lg bg-[#1D4ED8] sm:w-fit hover:bg-[#1E40AF] focus:ring-4 focus:outline-none focus:ring-[#93C5FD]"
+          className="flex transition sm:w-fit bg-indigo-100 hover:bg-opacity-80 dark:bg-indigo-500 hover:dark:bg-opacity-90 text-indigo-500 dark:text-indigo-100 py-2.5 px-4 rounded-lg"
           href="https://chimba.ooo/"
           target="_blank"
         >
@@ -30,7 +32,7 @@ function Experience() {
           el número de bloques de la cadena.
         </li>
         <a
-          className="cursor-pointer py-2 px-3 text-sm font-medium text-center text-white rounded-lg bg-[#1D4ED8] sm:w-fit hover:bg-[#1E40AF] focus:ring-4 focus:outline-none focus:ring-[#93C5FD]"
+          className="flex transition sm:w-fit bg-indigo-100 hover:bg-opacity-80 dark:bg-indigo-500 hover:dark:bg-opacity-90 text-indigo-500 dark:text-indigo-100 py-2.5 px-4 rounded-lg"
           href="https://explorer.chimba.ooo/"
           target="_blank"
         >
@@ -43,7 +45,7 @@ function Experience() {
           usando Bootstrap.
         </li>
         <a
-          className="cursor-pointer py-2 px-3 text-sm font-medium text-center text-white rounded-lg bg-[#1D4ED8] sm:w-fit hover:bg-[#1E40AF] focus:ring-4 focus:outline-none focus:ring-[#93C5FD]"
+          className="flex transition sm:w-fit bg-indigo-100 hover:bg-opacity-80 dark:bg-indigo-500 hover:dark:bg-opacity-90 text-indigo-500 dark:text-indigo-100 py-2.5 px-4 rounded-lg"
           href="https://amazonia.chimba.ooo/"
           target="_blank"
         >
@@ -51,9 +53,9 @@ function Experience() {
         </a>
       </ul>
       <br />
-      <span>Nov 2023 - Ene 2024</span>
-      <p>Desarrollador Full-Stack • OTCMarket</p>
-      <ul className="list-disc flex flex-col gap-2 ml-5">
+      <p className="font-bold">Desarrollador Full-Stack • OTCMarket</p>
+      <span className="text-slate-400">Nov 2023 - Ene 2024</span>
+      <ul className="list-disc flex flex-col gap-2 ml-5 mt-4">
         <li>
           OTCMarket es una aplicación web diseñada para que los usuarios puedan
           resumir grandes bloques de texto usando la API de OpenAI y publicarlas

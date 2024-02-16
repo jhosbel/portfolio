@@ -27,7 +27,7 @@ function About() {
   };
 
   return (
-    <div className="max-w-2xl">
+    <div className="max-w-2xl font-['system-ui'] text-slate-700">
       <h1 className="font-bold text-2xl text-indigo-400 dark:text-gray-100 mb-6 flex items-center gap-3">
         Acerca de mi
       </h1>
