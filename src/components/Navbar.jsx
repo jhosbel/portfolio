@@ -90,7 +90,7 @@ function Navbar() {
             className={`transition-all duration-1000 object-cover ${
               scrolling
                 ? "w-16 rounded-full justify-around cursor-pointer"
-                : "w-40"
+                : "w-40 rounded-2xl"
             }`}
           />
         </div>
